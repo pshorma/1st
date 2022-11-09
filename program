@@ -225,7 +225,7 @@ def heuristic(n):
             'E': 7,
             'G': 0,           
         }
-         return H_dist[n]
+        return H_dist[n]
 #Describe your graph here  
 Graph_nodes = {
     'A': [('B', 2), ('E', 3)],
